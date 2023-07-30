@@ -3,31 +3,26 @@ const { Schema } = mongoose;
 
 
 const MahalSchema = new Schema({
-  mahalName: String,
-  mahalFeatures: {
-    seatingCapacity: Number,
-    parking: Boolean,
-    diningCapacity: Number,
+  roomName : {
+    type: String,
+    required: true
   },
-  pricingDetails: {
-    pricingPerHour: Number,
-    pricingPerDay: Number,
-  },
-  addressDetails: {
-    addressLine1: String,
-    addressLine2: String,
-    city: String,
-    state: String,
-    pinCode: Number,
-  },
-  contactDetails: {
-    primaryPhone: String,
-    secondaryPhone: String,
-  },
-  createdAt: Date,
-  updatedAt: Date,
-  createdBy: Schema.Types.ObjectId,
-  updatedBy: Schema.Types.ObjectId,
+  seats : Number,
+  amenities : [
+    {
+      AC: Boolean,
+    },
+    {
+      TV: Boolean,
+    },
+    {
+      WiFi: Boolean,
+    },
+    {
+      Heater: Boolean,
+    }
+  ],
+  price : Number
 });
 
 module.exports = mongoose.model("mahal", MahalSchema);
