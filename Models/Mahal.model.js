@@ -8,7 +8,12 @@ const MahalSchema = new Schema({
     required: true
   },
   seats : Number,
-  amenities : Array,
+  amenities : {
+      AC: Boolean,
+      TV: Boolean,
+      WiFi: Boolean,
+      Heater: Boolean
+  },
   price : Number
 });
 

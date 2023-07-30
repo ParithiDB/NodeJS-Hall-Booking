@@ -1,11 +1,7 @@
 const MahalRouter = require("express").Router();
 const MahalModel = require("../Models/Mahal.model");
-// GET ALL THE USERS
-/**
- * METHOD = GET
- * REQUEST - {}
- * RESPONSE - ARRAY<USERS>
- */
+
+
 MahalRouter.get("/", (req, res, next) => {
   MahalModel.find()
     .then((cursor) => {
@@ -32,12 +28,7 @@ MahalRouter.get("/", (req, res, next) => {
     });
 });
 
-// CREATE A USER
-/**
- * METHOD = POST
- * REQUEST - Object<User>
- * RESPONSE - {}
- */
+
 MahalRouter.post("/createHall", (req, res, next) => {
   const data = req.body;
   const User = new MahalModel(data);
