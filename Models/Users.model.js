@@ -3,31 +3,29 @@ const { Schema } = mongoose;
 
 
 const UserSchema = new Schema({
-  firstName: {
+  customerName : {
     type: String,
-    required: true,
+    required: true
   },
-  lastName: String,
-  dob: Date,
-  email: String,
-  phoneNumber: String,
-  gender: String,
-  age: Number,
-  addressDetails: {
-    addressLine1: String,
-    addressLine2: String,
-    city: String,
-    state: String,
-    pinCode: Number,
+  roomName : {
+    type: String,
+    required: true
   },
+  roomId : {
+    type: String,
+    required: true
+  },
+  date : String,
+  startTime : String,
+  endTime : String,
   createdAt: {
     type: Date,
-    default: new Date().toString(),
+    default: new Date().toString()
   },
   updatedAt: {
     type: Date,
-    default: new Date().toString(),
-  },
+    default: new Date().toString()
+  }
 });
 
 module.exports = mongoose.model("users", UserSchema);
