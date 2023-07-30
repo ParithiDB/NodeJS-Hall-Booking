@@ -1,40 +1,35 @@
-<h1>Day 38 Task NodeJS Hall-Booking</h1>
+# Day 38 Task NodeJS Hall-Booking
 
-<h3>Deployed Link</h3>
+## Deployed Link
+[https://hallbooking-cugq.onrender.com/](https://hallbooking-cugq.onrender.com/)
 
-<a target="_blank"><i>https://hallbooking-cugq.onrender.com/</i></a>
+## To GET all Users detail
+GET Method: [https://hallbooking-cugq.onrender.com/users](https://hallbooking-cugq.onrender.com/users)
 
-<h3>To GET all Users detail</h3>
-<p>GET Method: </p><a><i>https://hallbooking-cugq.onrender.com/users</i></a>
+## To Create a New User
+POST Method: [https://hallbooking-cugq.onrender.com/users/createUser](https://hallbooking-cugq.onrender.com/users/createUser)
 
-<h3>To Create a New User</h3>
-<p>POST Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/users/createUser</i></a>
+---
 
-<hr/>
+## To GET all Hall detail
+GET Method: [https://hallbooking-cugq.onrender.com/halls](https://hallbooking-cugq.onrender.com/halls)
 
-<h3>To GET all Hall detail</h3>
-<p>GET Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/halls</i></a>
+## To Create a New Hall
+POST Method: [https://hallbooking-cugq.onrender.com/halls/createHall](https://hallbooking-cugq.onrender.com/halls/createHall)
 
-<h3>To Create a New Hall</h3>
-<p>POST Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/halls/createHall</i></a>
+---
 
-<hr/>
+## To GET all Booking detail
+GET Method: [https://hallbooking-cugq.onrender.com/booking](https://hallbooking-cugq.onrender.com/booking)
 
-<h3>To GET all Booking detail</h3>
-<p>GET Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking</i></a>
+## To Book a Hall
+POST Method: [https://hallbooking-cugq.onrender.com/booking/createBooking](https://hallbooking-cugq.onrender.com/booking/createBooking)
 
-<h3>To Create a New User</h3>
-<p>POST Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking/createBooking</i></a>
+## To GET all Booked Halls
+GET Method: [https://hallbooking-cugq.onrender.com/booking/bookedHall](https://hallbooking-cugq.onrender.com/booking/bookedHall)
 
-<h3>To GET all Booked Halls</h3>
-<p>GET Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking/bookedHall</i></a>
-
-<h3>To GET a certain User Booking Detail</h3>
-<p>GET Method: </p>
-<ul>
-<li><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking/Sachin%20Tendulkar</i></a></li>
-<li><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking/Rahul%20Dravid</i></a></li>
-<li><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking/Sourav%20Ganguly</i></a></li>
-<li><a target="_blank"><i>https://hallbooking-cugq.onrender.com/booking/VVS%20Laxman</i></a></li>
-</ul>
-
+## To GET a certain User Booking Detail
+- [https://hallbooking-cugq.onrender.com/booking/Sachin%20Tendulkar](https://hallbooking-cugq.onrender.com/booking/Sachin%20Tendulkar)
+- [https://hallbooking-cugq.onrender.com/booking/Rahul%20Dravid](https://hallbooking-cugq.onrender.com/booking/Rahul%20Dravid)
+- [https://hallbooking-cugq.onrender.com/booking/Sourav%20Ganguly](https://hallbooking-cugq.onrender.com/booking/Sourav%20Ganguly)
+- [https://hallbooking-cugq.onrender.com/booking/VVS%20Laxman](https://hallbooking-cugq.onrender.com/booking/VVS%20Laxman)
