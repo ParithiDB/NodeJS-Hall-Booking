@@ -5,7 +5,7 @@
 <a target="_blank"><i>https://hallbooking-cugq.onrender.com/</i></a>
 
 <h3>To GET all Users detail</h3>
-<p>GET Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/users</i></a>
+<p>GET Method: </p><a><i>https://hallbooking-cugq.onrender.com/users</i></a>
 
 <h3>To Create a New User</h3>
 <p>POST Method: </p><a target="_blank"><i>https://hallbooking-cugq.onrender.com/users/createUser</i></a>
